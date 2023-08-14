@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-i4fi
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-vdai-tenant/mc-quality-dashboard/frontend-quality-dashboard-i4fi@sha256:bb9f44c5e344c2d489710a51fd6c4b67c1e595a82a9a120e07fb70aa80488600
+        name: container-image
+        resources: {}
+status: {}
