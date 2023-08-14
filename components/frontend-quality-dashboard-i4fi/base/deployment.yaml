@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-i4fi
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-vdai-tenant/mc-quality-dashboard/frontend-quality-dashboard-i4fi@sha256:bb9f44c5e344c2d489710a51fd6c4b67c1e595a82a9a120e07fb70aa80488600
         imagePullPolicy: Always
         name: container-image
         ports:
